@@ -84,9 +84,17 @@ class ProcessFrame84(gym.ObservationWrapper):
              return x_t.astype(np.uint8)
 
 
+def make_env (env_name):
+    env = ProcessFrame84(env_name)
+    return env
+
+train_py_env_edit = make_env(train_py_env)
+
+
+
 from tf_agents.environments.tf_py_environment import TFPyEnvironment
 
-train_env = TFPyEnvironment(train_py_env)
+train_env = TFPyEnvironment(train_py_env_edit)
 
 
 preprocessing_layer = keras.layers.Lambda(
@@ -94,6 +102,20 @@ preprocessing_layer = keras.layers.Lambda(
 
 conv_layers_params =[(32, (8,8), 4), (64, (4,4), 2), (64, (3,3), 1)]
 fc_layers_params =[256]  # fully connected layer
+
+###### Work in progress
+
+# In order to speed up the process of learning we should make the agent recognise only 5 possible actions instead of the 9 that premade with AIgym.
+# For now can't prove if this works beacuse it seems this will only work on a GPU and we are working on our CPU.
+
+action_spec = tensor_spec.BoundedTensorSpec((),
+                                            tf.int64,
+                                            minimum=0,
+                                            maximum=4,
+                                            name='action')
+
+
+#######
 
 
 q_network = QNetwork(train_env.observation_spec(),
