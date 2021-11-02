@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Oct 29 20:12:19 2021
-
-@author: Nikola Zizic
-"""
-
 import gym
 import ale_py
 
