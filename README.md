@@ -1,4 +1,4 @@
-# A 2-layered Data Science Project : Object Detection with OpenCV and Tensorflow
+# Deep Reinforcement Learning for pacman
 
 ## Table of Content
   
