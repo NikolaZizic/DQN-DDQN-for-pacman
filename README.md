@@ -74,7 +74,9 @@ The whole project is built on a Windows OS.
 
 ## Technologies Used
 
-![](https://forthebadge.com/images/badges/made-with-python.svg)
+<img src="https://github.com/NikolaZizic/DQN-DDQN-for-pacman-using-TF-Agents-and-keras-rl/blob/main/images/python%20logo.png" width="232" height="75" />
+<img src="https://github.com/NikolaZizic/DQN-DDQN-for-pacman-using-TF-Agents-and-keras-rl/blob/main/images/tensorflow.png" width="232" height="75" />
+<img src="https://github.com/NikolaZizic/DQN-DDQN-for-pacman-using-TF-Agents-and-keras-rl/blob/main/images/Keras.png" width="232" height="75" />
 
 
 
