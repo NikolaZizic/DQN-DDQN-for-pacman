@@ -43,11 +43,19 @@ tba
 <div id='references'/>
 
 ## References
+### Papers
 
+1. _Playing Atari with Deep Reinforcement Learning_, Mnih et al., 2013
+2. _Human-level control through deep reinforcement learning_, Mnih et al., 2015
+3. _Deep Reinforcement Learning with Double Q-learning_, van Hasselt et al., 2015
+4. _Dueling Network Architectures for Deep Reinforcement Learning_, Wang et al., 2016
 
-> STEP 1
+### Code
 
-
+1. _Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition_, Aurélien Géron, 2019
+2. Keras-RL [!https://github.com/keras-rl/keras-rl]
+3. TF-Agents [!https://www.tensorflow.org/agents]
+4. OpenAI Baselines repository [!https://github.com/openai/baselines/blob/master/baselines/common/atari_wrappers.py]
 
 #### Windows User
 
