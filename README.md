@@ -53,9 +53,9 @@ tba
 ### Code
 
 1. _Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition_, Aurélien Géron, 2019
-2. Keras-RL [!https://github.com/keras-rl/keras-rl]
-3. TF-Agents [!https://www.tensorflow.org/agents]
-4. OpenAI Baselines repository [!https://github.com/openai/baselines/blob/master/baselines/common/atari_wrappers.py]
+2. [Keras-RL](https://github.com/keras-rl/keras-rl)
+3. [TF-Agents](https://www.tensorflow.org/agents)
+4. [OpenAI Baselines repository](https://github.com/openai/baselines/blob/master/baselines/common/atari_wrappers.py)
 
 #### Windows User
 
